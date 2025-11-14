@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "FocusMate",
+  "version": "2.1",
+  "description": "Your personal productivity and focus assistant for students.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms",
+    "tabs",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.instagram.com/*"
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}

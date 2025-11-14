@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FocusMate</title>
+
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+   <h1>🎯 FocusMate</h1>
+
+
+    <div id="quote" class="quote"></div>
+
+    <div class="todo-section">
+      <h2>📝 To-Do List</h2>
+      <input id="taskInput" type="text" placeholder="Add a new task..." />
+      <button id="addTask">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+    <hr>
+    
+<h2>⏱️Focus Timer</h2>
+<input type="number" id="focusMinutes" min="1" max="120" value="25">
+<button id="startFocus">Start Focus</button>
+<button id="stopFocus">Stop Focus</button>
+
+<h3 id="timerDisplay">Time Left: 25:00</h3>
+<p id="focusStatus"></p>
+
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
