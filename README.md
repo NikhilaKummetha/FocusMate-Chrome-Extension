@@ -19,7 +19,7 @@ Set a timer and stay focused. The timer keeps going even when the popup is close
 
 Automatically blocks YouTube, Instagram, and other distracting sites during focus sessions.
 
-???? Motivational Quotes
+💬 Motivational Quotes
 
 
 Get a new motivational quote each time you open the extension.
